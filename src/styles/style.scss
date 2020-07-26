@@ -1,0 +1,14 @@
+$theme-colors: (
+  "secondary": rgb(58, 113, 150),
+  "primary": #77ebdd,
+  "dark": #212121,
+  "danger": #992424
+);
+$border-radius: .1rem;
+@import "~bootstrap/scss/bootstrap";
+
+.make-me-sticky {
+    position: -webkit-sticky;
+    position: sticky;
+    top: 0;
+  }
